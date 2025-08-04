@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #070b12;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+#game_container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: greenyellow;
+}
+/* =============================== */
+#login_Form {
+  position: fixed;
+  text-align: center;
+  padding: 5rem;
+  margin: 10rem 0;
+  height: 200px;
+  border-radius: 25px;
+  border: none;
+  font-size: 3rem;
+  background-color: #1e3e62;
+  color: white;
+  line-height: 2;
+  box-shadow: 0 0 2px 2px white;
+}
+#login_Form #show_userName {
+  font-weight: 600;
+}
+#login_Form input,
+#login_Form button {
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 50px;
+}
+#login_Form button {
+  background-color: #070b12;
+  color: white;
+  transition: ease 0.3s;
+}
+#login_Form button:hover {
+  background-color: white;
+  color: #1e3e62;
+}
+/* =============================== */
+#first-rowBtns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+#first-rowBtns .buttons {
+  border: 3px solid greenyellow;
+  background-color: transparent;
+  color: greenyellow;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: ease 0.3s;
+}
+#first-rowBtns .buttons:hover {
+  color: #070b12;
+  background-color: greenyellow;
+}
+/* =============================== */
+#gameCharacters {
+  display: flex;
+  padding: 2rem;
+  gap: 8rem;
+}
+#gameCharacters img {
+  width: 350px;
+}
+.character-cards {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+}
+#player-card img {
+  margin-left: 25%;
+}
+
+.outer-HPBAR {
+  position: relative;
+  background-color: #333;
+  border-radius: 15px;
+  height: 20px;
+  width: 200px;
+  margin-top: 10px;
+}
+.inner-HPBAR {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+.showHP {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  color: white;
+}
+
+#second-rowBtns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 10px;
+}
+#second-rowBtns .buttons {
+  border: 3px solid greenyellow;
+  background-color: transparent;
+  color: greenyellow;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: ease 0.3s;
+}
+#second-rowBtns .buttons:hover {
+  color: #070b12;
+  background-color: greenyellow;
+}

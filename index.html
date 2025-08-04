@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPG GAME ALIKE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="login_Form">
+      <form>
+        <label id="show_userName" for="userName">Welcome!</label><br />
+        <input
+          id="userName"
+          type="text"
+          placeholder="Enter username"
+          maxlength="10"
+        />
+        <button id="enterBtn" type="button">Login</button>
+      </form>
+    </div>
+
+    <div id="game_container">
+      <h1 id="greetings_player">Welcome Player</h1>
+      <h2 id="expPoints">Your EXP POINTS:</h2>
+      <p id="savedEXP" style="display: none"></p>
+      <div id="first-rowBtns">
+        <button id="increaseBtn" type="button" class="buttons">INCREASE</button>
+        <button id="decreaseBtn" type="button" class="buttons">DECREASE</button>
+        <button id="resetBtn" type="button" class="buttons">RESET</button>
+        <button id="randomBtn" type="button" class="buttons">RANDOM</button>
+      </div>
+
+      <div id="gameCharacters">
+        <div id="player-card" class="character-cards">
+          <img id="playerName" src="images/player.png" alt="Player" />
+          <label id="showPlayerName" for="playerName"></label>
+          <div id="player-HP" class="outer-HPBAR">
+            <div id="inner-playerHP" class="inner-HPBAR">
+              <p id="show_playerHP" class="showHP"></p>
+            </div>
+          </div>
+        </div>
+        <div id="enemy-card" class="character-cards">
+          <img src="images/goblin.png" alt="Goblin" />
+          <label for="playerName">ENEMY - GOBLIN</label>
+          <div id="enemy-HP" class="outer-HPBAR">
+            <div id="inner-enemyHP" class="inner-HPBAR">
+              <p id="show_enemyHP" class="showHP"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="second-rowBtns">
+        <button id="powerupBtn" type="button" class="buttons">POWER UP</button>
+        <button id="healBtn" type="button" class="buttons">HEAL</button>
+        <button id="attackBtn" type="button" class="buttons">ATTACK</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
