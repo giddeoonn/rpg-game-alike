@@ -1,4 +1,5 @@
 🎮 **RPG Game-Alike (WIP)**
+
 This is a simple browser-based RPG prototype built with HTML, CSS, and JavaScript.
 It started as a mini-project to practice JS basics (variables, events, functions, DOM manipulation) and has grown into a fun little game experiment.
 
