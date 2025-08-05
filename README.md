@@ -74,8 +74,6 @@ JavaScript (ES6) (logic, interactivity)
 
 🎯 **Next Steps**
 
--Refactor code to separate logic into cleaner functions.
-
 -Expand combat system (special abilities, enemy types).
 
 -Polish UI with better CSS and animations.
